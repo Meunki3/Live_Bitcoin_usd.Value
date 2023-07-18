@@ -1,2 +1,4 @@
 # Live_Bitcoin_usd.Value
- This python program gets the latest BTC value from google.  Consistently scrapes for latest value every two seconds.
+    Get live BTC value from google. This consistently scrapes 
+    the value every 2000ms (2seconds).
+    
