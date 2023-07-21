@@ -1,12 +1,7 @@
 import customtkinter as ctr
 import requests
-import time
-import random
 import os
 from bs4 import BeautifulSoup
-from multiprocessing import Process
-from threading import Thread
-
 
 ctr.set_appearance_mode("dark")
 ctr.set_default_color_theme("blue")
@@ -14,7 +9,8 @@ ctr.set_default_color_theme("blue")
 root = ctr.CTk()
 root.geometry("500x450")
 root.title("Live Bitcoin Value")
-root.iconbitmap("logo1.ico".format(os.getenv("username")))
+root.resizable(False,False)
+
 
 # root.resizable(False,False)
 
